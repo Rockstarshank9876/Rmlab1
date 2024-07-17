@@ -1,0 +1,10 @@
+s1={1,2,3,4}
+s2={3,4,5,6}
+#s[0]=100
+#print(dir(s))
+s1.update({3,4,5})
+print(s1)
+fs=frozenset(s1)
+print(fs)
+print(dir(fs))
+fs[2]=100
